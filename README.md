@@ -1,0 +1,1 @@
+The program(user.py) reads data from the file "randomtextfile" and then encrypts using the AES algorithm and sends it to the server side(server.py). While sending the encrypted information from (user.py) we also send the key and nonce that was used to generate cipher ,are encrypted the key and nonce using RSA algorithm and sent to the server side.
